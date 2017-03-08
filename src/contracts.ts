@@ -31,3 +31,8 @@ export interface FileStat {
     additions?: number;
     deletions?: number;
 }
+
+export interface Filter {
+    by: string,
+    args: string[]
+}
